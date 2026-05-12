@@ -16,7 +16,7 @@ let package = Package(
         // .package(url: /* package url */, from: "1.0.0"),
         .package(url: "git@github.com:facephi-clienters/SDK-ZipZap-SPM.git", from: "1.0.0"),
         .package(url: "git@github.com:facephi-clienters/FPhiMBWidgetiOS-framework.git", from: "6.13.1"),
-        .package(url: "git@github.com:facephi-clienters/FPHISelphidDocumentReaderBundle-SPM.git", from: "2.0.0")
+        .package(url: "git@github.com:facephi-clienters/FPHISelphidDocumentReaderBundle-SPM.git", from: "2.1.0")
         
     ],
     targets: [
@@ -32,8 +32,8 @@ let package = Package(
             ],
             resources: [.process("Resources")]),
         .binaryTarget(name: "FPhiSelphIDWidgetiOS",
-        url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/WIDGET/Selphid/FPhiSelphIDWidgetiOSMBSDR/1.38.0/FPhiSelphIDWidgetiOSMBSDR.zip",
-        checksum: "04f6e1d32afdfee525cfc8bb6b764b71675d3de2b12316f56c87f06080d93893"),
+        url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/WIDGET/Selphid/FPhiSelphIDWidgetiOSMBSDR/1.39.0/FPhiSelphIDWidgetiOSMBSDR.zip",
+        checksum: "db516095c406a9616a27ffa204781ffc3e01ecb8cf16827c4a4d95d96fdbf04c"),
         
     ]
 )
