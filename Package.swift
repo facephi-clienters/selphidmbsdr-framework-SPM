@@ -14,9 +14,9 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
-        .package(url: "git@github.com:facephi-clienters/SDK-ZipZap-SPM.git", from: "1.0.0"),
-        .package(url: "git@github.com:facephi-clienters/FPhiMBWidgetiOS-framework.git", from: "6.13.1"),
-        .package(url: "git@github.com:facephi-clienters/FPHISelphidDocumentReaderBundle-SPM.git", from: "2.1.0")
+        .package(url: "https://github.com/facephi-clienters/SDK-ZipZap-SPM.git", from: "1.0.0"),
+        .package(url: "https://github.com/facephi-clienters/FPhiMBWidgetiOS-framework.git", from: "6.13.1"),
+        .package(url: "https://github.com/facephi-clienters/FPHISelphidDocumentReaderBundle-SPM.git", from: "2.1.0")
         
     ],
     targets: [
@@ -32,8 +32,8 @@ let package = Package(
             ],
             resources: [.process("Resources")]),
         .binaryTarget(name: "FPhiSelphIDWidgetiOS",
-        url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/WIDGET/Selphid/FPhiSelphIDWidgetiOSMBSDR/1.39.1/FPhiSelphIDWidgetiOSMBSDR.zip",
-        checksum: "fcb26c66e3e232f5ebaa417b4d9133c4d64e3340a5f5669cbf73c21d6313969d"),
+        url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/WIDGET/Selphid/FPhiSelphIDWidgetiOSMBSDR/1.39.2/FPhiSelphIDWidgetiOSMBSDR.zip",
+        checksum: "0ec70ca466612b2fd38de29364b43086005554372a6bdc83a663f3eaee497d77"),
         
     ]
 )
