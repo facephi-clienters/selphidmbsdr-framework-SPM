@@ -15,8 +15,8 @@ let package = Package(
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
         .package(url: "https://github.com/facephi-clienters/SDK-ZipZap-SPM.git", from: "1.0.0"),
-        .package(url: "https://github.com/facephi-clienters/FPhiMBWidgetiOS-framework.git", from: "6.13.1"),
-        .package(url: "https://github.com/facephi-clienters/FPHISelphidDocumentReaderBundle-SPM.git", from: "2.1.0")
+        .package(url: "https://github.com/facephi-clienters/FPhiMBWidgetiOS-framework.git", .exactItem("6.13.1")),
+        .package(url: "https://github.com/facephi-clienters/FPHISelphidDocumentReaderBundle-SPM.git", .upToNextMinor(from: "3.1.0"))
         
     ],
     targets: [
