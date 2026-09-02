@@ -5,6 +5,9 @@ import PackageDescription
 
 let package = Package(
     name: "FPhiSelphIDWidgetiOS",
+    platforms: [
+        .iOS(.v13)
+    ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
@@ -16,7 +19,7 @@ let package = Package(
         // .package(url: /* package url */, from: "1.0.0"),
         .package(url: "https://github.com/facephi-clienters/SDK-ZipZap-SPM.git", from: "1.0.0"),
         .package(url: "https://github.com/facephi-clienters/FPhiMBWidgetiOS-framework.git", .exactItem("6.13.1")),
-        .package(url: "https://github.com/facephi-clienters/FPHISelphidDocumentReaderBundle-SPM.git", .upToNextMinor(from: "3.1.0"))
+        .package(url: "https://github.com/facephi-clienters/FPHISelphidDocumentReaderBundle-SPM.git", .upToNextMinor(from: "3.3.0"))
         
     ],
     targets: [
