@@ -35,8 +35,8 @@ let package = Package(
             ],
             resources: [.process("Resources")]),
         .binaryTarget(name: "FPhiSelphIDWidgetiOS",
-        url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/WIDGET/Selphid/FPhiSelphIDWidgetiOSMBSDR/1.41.6/FPhiSelphIDWidgetiOSMBSDR.zip",
-        checksum: "b587bbc610065dc0d3ff69577ec18f91255323b4d034f8cdf40179ce6fd5cd28"),
+        url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/WIDGET/Selphid/FPhiSelphIDWidgetiOSMBSDR/1.41.7/FPhiSelphIDWidgetiOSMBSDR.zip",
+        checksum: "0a4032fd485200b6fae63900e2d5b3fe0fe4be834a74cb2d3e9fd3707f7e8bf9"),
         
     ]
 )
